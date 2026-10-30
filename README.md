@@ -41,9 +41,9 @@ Passbolt is an open-source password manager for storing, organizing, and sharing
 ## Deploying Passbolt
 
 ### Prerequisites
-* A system with [[Live-Hugo/Self-Hosted_Projects/Docker_Installation|Docker]] installed.
-* [[/HomeLab-Self_Hosted_Services/DNS_Stack/DNS_With_Pihole_&_Unbound|Pi-Hole]]
-* [[Live-Hugo/Self-Hosted_Projects/Managing_SSL_Certificates_&_Reverse_Proxy_Using_Traefik|Traefik]] and [[Live-Hugo/Self-Hosted_Projects/Cloudflared_Tunnel_(No_Port_Forwarding)|CloudFlared tunnel]]
+* A system with Docker installed.
+* Pi-Hole
+* Traefik and CloudFlared tunnel
 * A registered domain from a provider (e.g., Cloudflare)
 * SMTP provider
 
@@ -164,7 +164,7 @@ Target: yourdomain.com
 Proxy Status: Proxied (Orange Cloud)
 ```
 
-***Note**: This CNAME points to the root domain, which is needed to be link to the [[Live-Hugo/Self-Hosted_Projects/Cloudflared_Tunnel_(No_Port_Forwarding)#Step 5 Map Root DNS Record|Cloudflare Tunnel]].*
+***Note**: This CNAME points to the root domain, which is needed to be link to the Cloudflare Tunnel.*
 
 ---
 ## Post-Deployment
